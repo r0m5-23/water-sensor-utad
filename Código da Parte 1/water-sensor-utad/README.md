@@ -15,8 +15,8 @@ Your device EUI is: A8610A33374E820C
 ## Register Devices
 
 ```plan
-__Application ID:__ water_sensor_utad
-__Device EUI:__ A8610A33374E820C
+Application ID: water_sensor_utad
+Device EUI: A8610A33374E820C
 ```
 
 __Resultado:__
