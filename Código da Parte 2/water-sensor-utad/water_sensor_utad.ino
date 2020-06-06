@@ -69,8 +69,8 @@ void loop()
     time = millis();
   }
 
-  // Send values to "the network of things" hourly (360000ms)
-  if (millis() - timeUpload > 360000)
+  // Send values to "the network of things" hourly (3_600_000ms)
+  if (millis() - timeUpload > 3600000)
   {
 
     // Data processing
