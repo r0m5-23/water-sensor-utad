@@ -96,15 +96,19 @@ function Decoder(bytes, port) {
 
 ### Teste do Payload
 
+__Drops:__ 1192
+
 ```plan
-03 F3
+04 A8
 ```
 
-__Resultado:__
+### Resultado
+
+__Valor previsto:__ 1192 x 60 x 2.25 = 160920
 
 ```json
 {
-  "field1": "136485.00"
+  "field1": "160920.00"
 }
 ```
 
@@ -113,4 +117,3 @@ __Resultado:__
 - __Eduardo Queirós - _22653___
 
 - __Hugo Claro - _66509___
-
