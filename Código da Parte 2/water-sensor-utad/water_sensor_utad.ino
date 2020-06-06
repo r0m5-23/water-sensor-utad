@@ -100,4 +100,5 @@ void loop()
     // Reset timer
     timeUpload = millis();
   }
+  delay(50);
 }
